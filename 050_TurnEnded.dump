@@ -30,6 +30,7 @@ GameTurn = 050
 ===== EMPIRE 0 =======================
 [DepartmentOfDefense]
  [Fleet#1325] Neutral (from System#NULL) @Node#INVALID_NODE_POSITION @(-27.0682716,25.0258923)
+ [Fleet#1326] Undefined (from System#1202) @Node#72 @(82.05621,19.66473)
  [Fleet#2021] Neutral (from System#NULL) @Node#54 @(44.7930527,30.4410133)
  [Fleet#2277] Owner (from System#723) @Node#INVALID_NODE_POSITION @(2.333455,40.4091148)
 [DepartmentOfDomesticAffairs]
@@ -294,6 +295,7 @@ GameTurn = 050
   [0] StarSystemImprovementCuriosity2          (stocks: 250 SystemProduction)
 [DepartmentOfLabour]
  [EntityActions]
+   [#475] AutoExploreFleetAction                   #1326   Main
    [#471] AutomatedDeliveryFleetAction             #2277   Main
    [#466] GuardEmpireLocalAction                   #708    Main
    [#464] OutpostActionBoostGrowthWithDust         #2246   Main
@@ -2190,6 +2192,7 @@ Level = 2
   #1216 Fleet                                     @(-73.7110748, -11.9583759) Radius=0.75
   #1218 Fleet                                     @(79.59982, 19.1713638) Radius=0.75
   #1325 Fleet                                     @(-27.0682716, 25.0258923) Radius=7.75
+  #1326 Fleet                                     @(82.05621, 19.66473) Radius=2.75
   #1349 ColonizedStarSystem                       @(0.187285423, 55.900074) Radius=5.29396868
   #1358 Fleet                                     @(-73.72546, -4.24294949) Radius=2.75
   #1393 ColonizedStarSystem                       @(-14.0927677, 57.08956) Radius=4.030857
@@ -2337,6 +2340,7 @@ Level = 2
   #1216 UKKUUUUUUUUUUV/FFFFFFFFFFFFFF Fleet                    @(-73.7110748, -11.9583759, 0)
   #1218 KUUKUUUUUUUUUV/FFFFFFFFFFFFFF Fleet                    @(79.59982, 19.1713638, 0)
   #1325 VUUUKUUUUUUUKK/FFFFFFFFFFFFFF Fleet                    @(-27.0682716, 25.0258923, 0)
+  #1326 VUUKUUUUUUKUKV/FFFFFFFFFFFFFF Fleet                    @(82.05621, 19.66473, 0)
   #1358 UVVUUUUUUUUUUK/FFFFFFFFFFFFFF Fleet                    @(-73.72546, -4.24294949, 0)
   #1477 KUUUUUUUUUUUKV/FFFFFFFFFFFFFF Fleet                    @(31.5544777, 2.478263, 0)
   #1698 KUUVUUUKUUUUUU/FFFFFFFFFFFFFF Fleet                    @(70.47348, 46.3738365, 0)
@@ -2539,7 +2543,7 @@ Empire#0 /Empire#0
   AllowStrategicDeposit5 = 0
   AllowStrategicDeposit6 = 0
   AvailableNumberOfTradingCompanyHeadquarters = 0
-  BankAccount = 4724.908
+  BankAccount = 4719.908
   BaseFreeMovementSpeed = 0.4
   BasePortalSpeed = 0
   BaseWarpSpeed = 1
@@ -2562,9 +2566,9 @@ Empire#0 /Empire#0
   ColonizedMajorHomeSystemCount = 1
   ColonizedStarSystemStateColonyCount = 4
   ColonizedStarSystemStateColonyCountWithOffset = 3
-  CommandPoints = 8
-  CommandPointsAccumulator = 264
-  CommandPointsStock = 264
+  CommandPoints = 9
+  CommandPointsAccumulator = 265
+  CommandPointsStock = 265
   ConquestAllyVictoryModifier = 0
   ConquestVictorySystemAmountRequired = 0
   ConquestVictorySystemPercentageRequired = 0.78
@@ -2573,7 +2577,7 @@ Empire#0 /Empire#0
   CurrentTurn = 51
   DeedsAchieved = 3
   DefenseBuildingCount = 0
-  DefensiveMilitaryPower = 1052.00708
+  DefensiveMilitaryPower = 1189.00708
   DepletedPlanetCount = 1
   DetectionLevel = 4
   DifficultyLevel = 2
@@ -2593,7 +2597,7 @@ Empire#0 /Empire#0
   EmpireEmpirePointStock = 950.5504
   EmpireEmpirePointUpkeep = 0
   EmpireExpansionScore = 4
-  EmpireFIDSIAccumulator = 40071.5273
+  EmpireFIDSIAccumulator = 40066.5273
   EmpireGlobalScore = 365
   EmpireGrowth = 598.3907
   EmpireGrowthAccumulator = 8913.5625
@@ -2609,10 +2613,10 @@ Empire#0 /Empire#0
   EmpireManpowerStock = 1709.85645
   EmpireManpowerTotal = 2749.85645
   EmpireManpowerUpkeep = 0
-  EmpireMilitaryScore = 4731.934
+  EmpireMilitaryScore = 4940.581
   EmpireMoney = 362.25
-  EmpireMoneyAccumulator = 5481.4
-  EmpireMoneyUpkeep = 74
+  EmpireMoneyAccumulator = 5476.4
+  EmpireMoneyUpkeep = 79
   EmpireOutpostSupply = 0
   EmpireOutpostSupplyStock = 0
   EmpirePointBuyoutActivated = 0
@@ -2642,7 +2646,7 @@ Empire#0 /Empire#0
   GameSpeedTimeModifier = 1
   GameSpeedTimeMultiplier = 1
   GameSpeedTrendMultiplier = 1
-  GarrisonMoneyUpkeep = 74
+  GarrisonMoneyUpkeep = 79
   GovernmentChangeHappinessMultiplier = 1
   GovernmentGameplayLocked = 1
   GovernmentGameplayUnlocked = 0
@@ -2734,7 +2738,7 @@ Empire#0 /Empire#0
   MaximumSystemResearch = 297
   MetaplotProbability = 1
   MilitaryScreenGameplayUnlocked = 1
-  MilitaryVictoryScore = 4794
+  MilitaryVictoryScore = 5004
   MinimumEmpireEmpirePointStock = 0
   MinimumEmpireLifeforceStock = 0
   MinimumEmpireManpowerStock = 0
@@ -2756,7 +2760,7 @@ Empire#0 /Empire#0
   NetEmpireLifeforce = 0
   NetEmpireLifeforce_AIBonus = 0
   NetEmpireManpower = 20.305
-  NetEmpireMoney = 288.25
+  NetEmpireMoney = 283.25
   NetEmpireOutpostSupply = 0
   NetEmpireProduction = 621
   NetEmpireResearch = 672.5
@@ -2806,7 +2810,7 @@ Empire#0 /Empire#0
   NumberOfTradingCompanies = 0
   NumberOfTradingCompanyHeadquarters = 0
   NumberOfTradingCompanySubsidiaries = 0
-  OffensiveMilitaryPower = 930.070557
+  OffensiveMilitaryPower = 1001.71765
   OutpostCount = 1
   OutpostGrowthLeech = 0
   OutpostGrowthReduction = 0
@@ -2864,7 +2868,7 @@ Empire#0 /Empire#0
   ScienceBuildingCount = 2
   SeesAllFleets = 0
   SenateEfficiency = 0
-  ShipCount = 10
+  ShipCount = 11
   ShipScrapValueModifier = 1
   Strategic1Stock = 182
   Strategic2Stock = 229
@@ -2977,7 +2981,7 @@ Empire#0 /Empire#0
   WarCount = 0
   WarsWon = 0
   WonderBuiltCount = 0
- CHILDREN ~29
+ CHILDREN ~30
   ColonizedStarSystem#1115 /Empire#0/ColonizedStarSystem#1115
    DESCRIPTORS 11
     ClassColonizedStarSystem
@@ -3317,7 +3321,7 @@ Empire#0 /Empire#0
     SystemTerritoryInfluence = 0
     SystemTurnBasedStock = 1
     TotalNetLuxury = 4
-    TotalShipCount = 10
+    TotalShipCount = 11
     TradingCompanyHeaquarterCount = 0
     TradingRouteIncomeModifier = 1
     TradingRouteSystemBaseIncome = 1.7
@@ -4633,7 +4637,7 @@ Empire#0 /Empire#0
     SystemTerritoryInfluence = 0
     SystemTurnBasedStock = 1
     TotalNetLuxury = 2
-    TotalShipCount = 10
+    TotalShipCount = 11
     TradingCompanyHeaquarterCount = 0
     TradingRouteIncomeModifier = 1
     TradingRouteSystemBaseIncome = 0.7
@@ -5346,7 +5350,7 @@ Empire#0 /Empire#0
     SystemTerritoryInfluence = 0
     SystemTurnBasedStock = 1
     TotalNetLuxury = 2
-    TotalShipCount = 10
+    TotalShipCount = 11
     TradingCompanyHeaquarterCount = 0
     TradingRouteIncomeModifier = 1
     TradingRouteSystemBaseIncome = 0.3
@@ -6070,7 +6074,7 @@ Empire#0 /Empire#0
     SystemTerritoryInfluence = 0
     SystemTurnBasedStock = 1
     TotalNetLuxury = 4
-    TotalShipCount = 10
+    TotalShipCount = 11
     TradingCompanyHeaquarterCount = 0
     TradingRouteIncomeModifier = 1
     TradingRouteSystemBaseIncome = 0
@@ -6685,7 +6689,7 @@ Empire#0 /Empire#0
     SystemTerritoryInfluence = 0
     SystemTurnBasedStock = 0
     TotalNetLuxury = 3
-    TotalShipCount = 10
+    TotalShipCount = 11
     TradingCompanyHeaquarterCount = 0
     TradingRouteIncomeModifier = 1
     TradingRouteSystemBaseIncome = 1.2
@@ -9793,6 +9797,643 @@ Empire#0 /Empire#0
         Shield = 0
         ShieldRadius = 0.5
         ShipHealth = 105
+        VisionRange = 0
+       CHILDREN ~0
+  Fleet#1326 /Empire#0/Fleet#1326
+   DESCRIPTORS 7
+    ClassGarrison
+    ClassGarrisonFleet
+    FleetActionAutoExplore
+    FleetActionBusy
+    FleetActionGoTo
+    FleetActionHeroLocked
+    FleetPositionInOrbit
+   PROPERTIES 69
+    ActionPointStock = 2
+    BeamDmgReduction = 0
+    BestAttackerModule = 0
+    BestDefensiveModule = 0
+    CommandPoints = 1
+    DefensiveMilitaryPower = 137
+    DetectionLevel = 4
+    Evasion = 0
+    ExpeditionPower = 3
+    ExperienceAtShipCreation = 0
+    ExperiencePerTurn = 0
+    FleetHullPlatingAbsorption = 0
+    FleetManpowerRefillRateModifier = 0
+    FleetMaximumHealth = 0
+    FleetMaximumShield = 0
+    FleetShieldAbsorption = 0
+    FogOfWarRange = 3.4375
+    FreeMovementSpeed = 0.8
+    GarrisonMoneyUpkeep = 5
+    HealthRegenerationRatio = 0
+    HullDmgReductionLong = 0
+    HullDmgReductionMedium = 0
+    HullDmgReductionShort = 0
+    IsFrozen = 0
+    KineticDmgReduction = 0
+    LaserDmgReduction = 0
+    MaximumCommandPoints = 9
+    MaximumMovement = 6
+    MaximumShipManpower = 44
+    MaximumShipProbeStock = 2
+    MilitaryPower = 208.647064
+    MissileDmgReduction = 0
+    Movement = 6
+    NetActionPoint = 1
+    OffensiveMilitaryPower = 71.64706
+    PortalSpeed = 0
+    RootingIncreasePerTurn = 0
+    ScaleMultiplier = 1
+    ShieldDmgReductionLong = 0
+    ShieldDmgReductionMedium = 0
+    ShieldDmgReductionShort = 0
+    ShipAccuracy = 0
+    ShipCount = 1
+    ShipCriticalHitChance = 0
+    ShipDamage = 0
+    ShipDamageBeam = 0
+    ShipDamageCore = 0
+    ShipDamageEnergy = 0
+    ShipDamageKinetic = 0
+    ShipDamageLaser = 0
+    ShipDamageLong = 0
+    ShipDamageMedium = 0
+    ShipDamageMissile = 0
+    ShipDamageModule = 0
+    ShipDamageProjectile = 0
+    ShipDamageSection = 0
+    ShipDamageShield = 0
+    ShipDamageShort = 0
+    ShipHullPlatingAbsorptionPercent = 0
+    ShipHullPlatingPenetrationFactor = 0
+    ShipManpowerStock = 44
+    ShipMaximumMovement = 0
+    ShipShieldAbsorptionPercent = 0
+    ShipShieldPenetrationFactor = 0
+    SiegePower = 2
+    TradingRouteBlockadePower = 0.104323529
+    VisionRange = 2.75
+    WarpSpeed = 2
+    WormholeSpeed = 0
+   CHILDREN ~1
+    Ship#769 /Empire#0/Fleet#1326/Ship#769
+     DESCRIPTORS 13
+      ClassHullCravers
+      ClassHullSmallCivilian
+      ClassShip
+      ShipFactionCravers
+      ShipHull01
+      ShipLevel02
+      ShipLevelUpRule
+      ShipRoleExploration
+      ShipRoleTypeCivilian
+      ShipSizeSmall
+      ShipStatBonus1Movement2
+      ShipStatBonus2ProbeRegeneration
+      WeaponAvailabilityKinetic
+     PROPERTIES 121
+      Accuracy = 0
+      ActionPointStock = 2
+      AdditionalOpponentRecyclingDustPerCP = 0
+      AdditionalOpponentRecyclingEmpirePointPerCP = 0
+      AdditionalOpponentRecyclingSciencePerCP = 0
+      BomberUnitsCount = 0
+      CommandPoints = 1
+      CriticalHitChance = 0
+      CuriositiesDiscovered = 41
+      Damage = 0
+      DamageBeam = 0
+      DamageBonusFromManpower = 0
+      DamageBonusPerOpponentShipAtLongRange = 0
+      DamageBonusPerTargetCommandPoints = 0
+      DamageCore = 0
+      DamageEnergy = 0
+      DamageKinetic = 0
+      DamageLaser = 0
+      DamageLong = 0
+      DamageMedium = 0
+      DamageMissile = 0
+      DamageModule = 0
+      DamagePerSecond = 209.411774
+      DamagePerSecondBeam = 0
+      DamagePerSecondKinetic = 49.4117622
+      DamagePerSecondLaser = 0
+      DamagePerSecondLong = 4.94117737
+      DamagePerSecondMedium = 24.7058811
+      DamagePerSecondMissile = 0
+      DamagePerSecondShort = 42
+      DamageProjectile = 0
+      DamageSection = 0
+      DamageShield = 0
+      DamageShort = 0
+      DefenseBonusAtLongRange = 0
+      DefenseBonusAtMediumRange = 0
+      DefenseBonusAtShortRange = 0
+      DefenseBonusOverall = 0
+      DefensiveMilitaryPower = 137
+      DodgeChanceAgainstSquadrons = 0
+      EmpireInfantryLevel = 1
+      Evasion = 0
+      Experience = 36.6666679
+      ExperienceBonusFromBattle = 0
+      ExperiencePerTurn = 1
+      ExperienceReward = 6
+      ExperienceRewardFromLevel = 1.4
+      FighterUnitsCount = 0
+      FlatHealthRegeneration = 0
+      FleetXPPerDamageAbsorbedByHullPlating = 0
+      FogOfWarRange = 3.4375
+      FreeMovementSpeed = 0.8
+      GarrisonMoneyUpkeep = 5
+      GlobalSpeed = 2
+      Health = 0
+      HealthRegenerationRatio = 0
+      HullPlatingAbsorption = 0
+      HullPlatingAbsorptionEndMultiplier = 0
+      HullPlatingAbsorptionPercent = 1
+      HullPlatingPenetrationFactor = 0
+      HullWeakness = 100
+      Level = 2
+      LocalManpower = 0
+      ManpowerDamageOverTimeDefense = 0
+      MaximumActionPointStock = 1
+      MaximumDamageBonusFromManpower = 0.2
+      MaximumHealth = 1710
+      MaximumMovement = 6
+      MaximumShield = 0
+      MaximumShipManpower = 44
+      MaximumShipManpowerRefillRate = 0
+      MaximumShipProbeStock = 2
+      MilitaryPower = 208.647064
+      MinimumActionPointStock = 0
+      MinimumShipProbeStock = 0
+      Movement = 6
+      NetActionPoint = 1
+      NetShipManpower = 0
+      NetShipProbe = 0.5
+      NextLevelRequestedExperience = 40
+      OffensiveMilitaryPower = 71.64706
+      OpponentCriticalHitDamagePercent = 0
+      OpponentRecyclingDustPerCP = 0
+      OpponentRecyclingEmpirePointPerCP = 0
+      OpponentRecyclingSciencePerCP = 0
+      PassiveShipExperienceRewardForAdmirals = 1
+      PortalSpeed = 0
+      RelativeMilitaryPower = 0
+      RepairAfterBattle = 0
+      RepairAfterBattleFlat = 0
+      RepairAfterPhase = 0
+      RepairFlatPerDamageAbsorbedByHullPlating = 0
+      RootingIncreasePerTurn = 0
+      ScrapPriority = 7
+      Shield = 0
+      ShieldAbsorption = 0
+      ShieldAbsorptionEndMultiplier = 0
+      ShieldAbsorptionPercent = 1
+      ShieldPenetrationFactor = 0
+      ShieldRadius = 0.3
+      ShieldReloadPerPhase = 0
+      ShipCount = 1
+      ShipHealth = 0
+      ShipManpowerKillAbsorption = 0
+      ShipManpowerKillPerHitPercent = 0
+      ShipManpowerRefillRate = 0
+      ShipManpowerStock = 44
+      ShipProbeStock = 2.5
+      ShipStage = 0
+      ShipTradingRouteBlockadePower = 0.104323529
+      SiegePower = 0
+      SizeDamageMultiplierForSquadron = 0.5
+      SpentMovement = 0
+      SquadronBomberCount = 0
+      SquadronFighterCount = 0
+      TargetingWeightBonus = 0
+      TradeValue = 0
+      VisionRange = 2.75
+      VisualImportanceScore = 10
+      WarpSpeed = 2
+      WormholeSpeed = 0
+     CHILDREN ~9
+      CoreSection /Empire#0/Fleet#1326/Ship#769/CoreSection
+       DESCRIPTORS 4
+        ClassSection
+        ClassSectionCore
+        ClassSectionCoreCravers
+        ClassSectionCoreSmallCivilian
+       PROPERTIES 12
+        DefensiveMilitaryPower = 97
+        Health = 0
+        HitBySalvo = 0
+        MaximumHealth = 1710
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 35.82353
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 1
+       CHILDREN ~3
+        ModuleSupportExploration1#1 /Empire#0/Fleet#1326/Ship#769/CoreSection/ModuleSupportExploration1#1
+         DESCRIPTORS 5
+          ClassModule
+          ClassModuleExplorerAndHeroShipOnly
+          ClassModuleSupport
+          ModuleSupportExploration
+          ModuleSupportExploration1
+         PROPERTIES 14
+          DefensiveMilitaryPower = 0
+          FlotillaDmgReductionAgainstEnergy = 0
+          FlotillaDmgReductionAgainstPhysical = 0
+          Health = 0.4
+          MaximumHealth = 1
+          MaximumMovement = 0
+          MaximumShipProbeStock = 2
+          Multiplier = 1
+          NetShipProbe = 0.5
+          OffensiveMilitaryPower = 0
+          SectionHealthBonus = 0
+          SpecialEffectDuration = 0
+          UpkeepFromModules = 1
+          VisionRange = 1
+         CHILDREN ~0
+        ModuleWeaponFlack1#3 /Empire#0/Fleet#1326/Ship#769/CoreSection/ModuleWeaponFlack1#3
+         DESCRIPTORS 6
+          ClassModule
+          ClassModuleWeapon
+          ClassModuleWeaponFlack
+          ModuleStatusSlave
+          ModuleWeaponFlack1
+          TopWeapon
+         PROPERTIES 46
+          Accuracy = 1
+          Cooldown = 0.25
+          CriticalHitChance = 0
+          Damage = 20
+          DamageAbsorbedByShieldMultiplier = 0
+          DamagePerSecond = 80
+          DamagePerSecondLong = 0
+          DamagePerSecondMedium = 0
+          DamagePerSecondShort = 80
+          DeadZoneRangePenalty = 1
+          DefensiveMilitaryPower = 0
+          EfficiencyAgainstSquadron = 0.125
+          FlackType = 1
+          FlakDPSMissile = 0
+          FlakDPSSquadron = 0
+          FlakEfficiency = 0
+          Health = 10
+          HullPlatingAbsorptionValue = 0
+          HullPlatingPenetrationFactor = 0
+          InitialLongRangeAccuracy = 0
+          InitialMediumRangeAccuracy = 0
+          InitialShortRangeAccuracy = 1
+          LongRangePenalty = 1
+          MaximumHealth = 10
+          MediumRangePenalty = 1
+          MissileHealth = 0
+          Multiplier = 1
+          OffensiveMilitaryPower = 0
+          OpponentCooldownReductionPercent = 0
+          OpponentEnergyWeaponAccuracyPercent = 0
+          PreparationDuration = 0
+          PreparationDurationFactorMax = 1
+          PreparationDurationFactorMin = 1
+          ProjectileSpeed = -1
+          SalvoHealthPercent = 0
+          ShieldAbsorptionValue = 0.4
+          ShieldPenetrationFactor = 0
+          ShipManpowerKillPerHit = 0
+          ShootingDuration = 0.15
+          ShortRangePenalty = 0
+          ShotsCountPerSalvo = 0
+          SpecialEffectDuration = 0
+          SplashFlotillaDamagePercent = 0
+          UpkeepFromModules = 1
+          WeaponTypeEnergy = 0
+          WeaponTypePhysical = 0
+         CHILDREN ~0
+        ModuleWeaponKinetic1#2 /Empire#0/Fleet#1326/Ship#769/CoreSection/ModuleWeaponKinetic1#2
+         DESCRIPTORS 6
+          ClassModule
+          ClassModuleFlakExplication
+          ClassModuleWeapon
+          ClassModuleWeaponKinetic
+          ModuleWeaponKinetic1
+          TopWeapon
+         PROPERTIES 45
+          Accuracy = 1
+          Cooldown = 1.7
+          CriticalHitChance = 0
+          Damage = 42
+          DamageAbsorbedByShieldMultiplier = 0
+          DamagePerSecond = 24.7058811
+          DamagePerSecondLong = 2.47058868
+          DamagePerSecondMedium = 12.3529406
+          DamagePerSecondShort = 21
+          DeadZoneRangePenalty = 1
+          DefensiveMilitaryPower = 40
+          EfficiencyAgainstSquadron = 0.125
+          FlakDPSMissile = 80
+          FlakDPSSquadron = 10
+          FlakEfficiency = 0
+          Health = 0.4
+          HullPlatingAbsorptionValue = 0
+          HullPlatingPenetrationFactor = 0.2
+          InitialLongRangeAccuracy = 0.100000024
+          InitialMediumRangeAccuracy = 0.5
+          InitialShortRangeAccuracy = 0.85
+          LongRangePenalty = 0.9
+          MaximumHealth = 1
+          MediumRangePenalty = 0.5
+          MissileHealth = 0
+          Multiplier = 1
+          OffensiveMilitaryPower = 35.82353
+          OpponentCooldownReductionPercent = 0
+          OpponentEnergyWeaponAccuracyPercent = 0
+          PreparationDuration = 0.5
+          PreparationDurationFactorMax = 1.2
+          PreparationDurationFactorMin = 0.8
+          ProjectileSpeed = 800
+          SalvoHealthPercent = 0
+          ShieldAbsorptionValue = 0
+          ShieldPenetrationFactor = 0.5
+          ShipManpowerKillPerHit = 0
+          ShootingDuration = 0.8
+          ShortRangePenalty = 0.15
+          ShotsCountPerSalvo = 5
+          SpecialEffectDuration = 0
+          SplashFlotillaDamagePercent = 0
+          UpkeepFromModules = 1
+          WeaponTypeEnergy = 0
+          WeaponTypePhysical = 1
+         CHILDREN ~0
+      SectionE /Empire#0/Fleet#1326/Ship#769/SectionE
+       DESCRIPTORS 2
+        ClassSection
+        SectionE
+       PROPERTIES 11
+        DefensiveMilitaryPower = 40
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 35.82353
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 0
+       CHILDREN ~2
+        ModuleWeaponFlack1#2 /Empire#0/Fleet#1326/Ship#769/SectionE/ModuleWeaponFlack1#2
+         DESCRIPTORS 5
+          ClassModule
+          ClassModuleWeapon
+          ClassModuleWeaponFlack
+          ModuleStatusSlave
+          ModuleWeaponFlack1
+         PROPERTIES 46
+          Accuracy = 1
+          Cooldown = 0.25
+          CriticalHitChance = 0
+          Damage = 20
+          DamageAbsorbedByShieldMultiplier = 0
+          DamagePerSecond = 80
+          DamagePerSecondLong = 0
+          DamagePerSecondMedium = 0
+          DamagePerSecondShort = 80
+          DeadZoneRangePenalty = 1
+          DefensiveMilitaryPower = 0
+          EfficiencyAgainstSquadron = 0.125
+          FlackType = 1
+          FlakDPSMissile = 0
+          FlakDPSSquadron = 0
+          FlakEfficiency = 0
+          Health = 10
+          HullPlatingAbsorptionValue = 0
+          HullPlatingPenetrationFactor = 0
+          InitialLongRangeAccuracy = 0
+          InitialMediumRangeAccuracy = 0
+          InitialShortRangeAccuracy = 1
+          LongRangePenalty = 1
+          MaximumHealth = 10
+          MediumRangePenalty = 1
+          MissileHealth = 0
+          Multiplier = 1
+          OffensiveMilitaryPower = 0
+          OpponentCooldownReductionPercent = 0
+          OpponentEnergyWeaponAccuracyPercent = 0
+          PreparationDuration = 0
+          PreparationDurationFactorMax = 1
+          PreparationDurationFactorMin = 1
+          ProjectileSpeed = -1
+          SalvoHealthPercent = 0
+          ShieldAbsorptionValue = 0.4
+          ShieldPenetrationFactor = 0
+          ShipManpowerKillPerHit = 0
+          ShootingDuration = 0.15
+          ShortRangePenalty = 0
+          ShotsCountPerSalvo = 0
+          SpecialEffectDuration = 0
+          SplashFlotillaDamagePercent = 0
+          UpkeepFromModules = 1
+          WeaponTypeEnergy = 0
+          WeaponTypePhysical = 0
+         CHILDREN ~0
+        ModuleWeaponKinetic1#1 /Empire#0/Fleet#1326/Ship#769/SectionE/ModuleWeaponKinetic1#1
+         DESCRIPTORS 5
+          ClassModule
+          ClassModuleFlakExplication
+          ClassModuleWeapon
+          ClassModuleWeaponKinetic
+          ModuleWeaponKinetic1
+         PROPERTIES 45
+          Accuracy = 1
+          Cooldown = 1.7
+          CriticalHitChance = 0
+          Damage = 42
+          DamageAbsorbedByShieldMultiplier = 0
+          DamagePerSecond = 24.7058811
+          DamagePerSecondLong = 2.47058868
+          DamagePerSecondMedium = 12.3529406
+          DamagePerSecondShort = 21
+          DeadZoneRangePenalty = 1
+          DefensiveMilitaryPower = 40
+          EfficiencyAgainstSquadron = 0.125
+          FlakDPSMissile = 80
+          FlakDPSSquadron = 10
+          FlakEfficiency = 0
+          Health = 0.4
+          HullPlatingAbsorptionValue = 0
+          HullPlatingPenetrationFactor = 0.2
+          InitialLongRangeAccuracy = 0.100000024
+          InitialMediumRangeAccuracy = 0.5
+          InitialShortRangeAccuracy = 0.85
+          LongRangePenalty = 0.9
+          MaximumHealth = 1
+          MediumRangePenalty = 0.5
+          MissileHealth = 0
+          Multiplier = 1
+          OffensiveMilitaryPower = 35.82353
+          OpponentCooldownReductionPercent = 0
+          OpponentEnergyWeaponAccuracyPercent = 0
+          PreparationDuration = 0.5
+          PreparationDurationFactorMax = 1.2
+          PreparationDurationFactorMin = 0.8
+          ProjectileSpeed = 800
+          SalvoHealthPercent = 0
+          ShieldAbsorptionValue = 0
+          ShieldPenetrationFactor = 0.5
+          ShipManpowerKillPerHit = 0
+          ShootingDuration = 0.8
+          ShortRangePenalty = 0.15
+          ShotsCountPerSalvo = 5
+          SpecialEffectDuration = 0
+          SplashFlotillaDamagePercent = 0
+          UpkeepFromModules = 1
+          WeaponTypeEnergy = 0
+          WeaponTypePhysical = 1
+         CHILDREN ~0
+      SectionN /Empire#0/Fleet#1326/Ship#769/SectionN
+       DESCRIPTORS 2
+        ClassSection
+        SectionN
+       PROPERTIES 11
+        DefensiveMilitaryPower = 0
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 0
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 0
+       CHILDREN ~0
+      SectionNE /Empire#0/Fleet#1326/Ship#769/SectionNE
+       DESCRIPTORS 2
+        ClassSection
+        SectionNE
+       PROPERTIES 11
+        DefensiveMilitaryPower = 0
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 0
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 0
+       CHILDREN ~0
+      SectionNW /Empire#0/Fleet#1326/Ship#769/SectionNW
+       DESCRIPTORS 2
+        ClassSection
+        SectionNW
+       PROPERTIES 11
+        DefensiveMilitaryPower = 0
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 0
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 0
+       CHILDREN ~0
+      SectionS /Empire#0/Fleet#1326/Ship#769/SectionS
+       DESCRIPTORS 2
+        ClassSection
+        SectionS
+       PROPERTIES 11
+        DefensiveMilitaryPower = 0
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 0
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 0
+       CHILDREN ~1
+        ModuleSupportEngine1#1 /Empire#0/Fleet#1326/Ship#769/SectionS/ModuleSupportEngine1#1
+         DESCRIPTORS 4
+          ClassModule
+          ClassModuleSupport
+          ModuleSupportEngine
+          ModuleSupportEngine1
+         PROPERTIES 12
+          DefensiveMilitaryPower = 0
+          Evasion = 0
+          FlotillaDmgReductionAgainstEnergy = 0
+          FlotillaDmgReductionAgainstPhysical = 0
+          Health = 0.4
+          MaximumHealth = 1
+          MaximumMovement = 2
+          Multiplier = 1
+          OffensiveMilitaryPower = 0
+          SectionHealthBonus = 0
+          SpecialEffectDuration = 0
+          UpkeepFromModules = 1
+         CHILDREN ~0
+      SectionSE /Empire#0/Fleet#1326/Ship#769/SectionSE
+       DESCRIPTORS 2
+        ClassSection
+        SectionSE
+       PROPERTIES 11
+        DefensiveMilitaryPower = 0
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 0
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 0
+       CHILDREN ~0
+      SectionSW /Empire#0/Fleet#1326/Ship#769/SectionSW
+       DESCRIPTORS 2
+        ClassSection
+        SectionSW
+       PROPERTIES 11
+        DefensiveMilitaryPower = 0
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 0
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
+        VisionRange = 0
+       CHILDREN ~0
+      SectionW /Empire#0/Fleet#1326/Ship#769/SectionW
+       DESCRIPTORS 2
+        ClassSection
+        SectionW
+       PROPERTIES 11
+        DefensiveMilitaryPower = 0
+        Health = 0
+        MaximumHealth = 0
+        MaximumHealthFromModule = 0
+        MaximumMovement = 0
+        MaximumShield = 0
+        OffensiveMilitaryPower = 0
+        Shield = 0
+        ShieldRadius = 0.5
+        ShipHealth = 0
         VisionRange = 0
        CHILDREN ~0
   Fleet#2021 /Empire#0/Fleet#2021
